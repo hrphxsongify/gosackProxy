@@ -8,7 +8,8 @@
     "seed": "seed -u 'mongodb://127.0.0.1:27017/albumMetadata' --drop-database ./data",
     "react-dev": "webpack -d --watch",
     "server-dev": "nodemon ./server.js",
-    "lint": "eslint src -c .eslintrc.json --ext js,jsx"
+    "lint": "eslint src -c .eslintrc.json --ext js,jsx",
+    "build-production": "webpack --mode production"
   },
   "repository": {
     "type": "git",
